@@ -2,9 +2,6 @@
 using Android.Widget;
 using Android.OS;
 using Com.Ittianyu.Bottomnavigationviewex;
-using Android.Support.Design.Internal;
-using static Android.Views.View;
-using System.Collections.Generic;
 
 namespace BottomNavExtentionExample
 {

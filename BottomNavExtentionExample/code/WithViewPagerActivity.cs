@@ -1,17 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-
-using Android.Support.V4;
-using Android.Support.V7;
 using Com.Ittianyu.Bottomnavigationviewex;
 
 namespace BottomNavExtentionExample
@@ -22,7 +12,7 @@ namespace BottomNavExtentionExample
 
         BottomNavigationViewEx bnve;
         List<Fragment> fragment;
-        
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -70,11 +60,10 @@ namespace BottomNavExtentionExample
             fragment.Add(backupfragment);
             fragment.Add(friendsfragment);
 
-            
+
         }
         public void InitEvent()
         {
-
         }
     }
 }

@@ -6,9 +6,9 @@ using Android.Views;
 using Android.Widget;
 using Com.Allenliu.Badgeview;
 using Android.Graphics;
+using AndroidX.AppCompat.App;
 using Com.Ittianyu.Bottomnavigationviewex;
-using Android.Support.V7.App;
-using Android.Support.Design.Widget;
+using Google.Android.Material.BottomNavigation;
 
 namespace BottomNavExtentionExample
 {
@@ -49,7 +49,7 @@ namespace BottomNavExtentionExample
                 badgeView4 = AddBadgeViewAt(3, "2", BadgeView.ShapeOval);
                 badgeView5 = AddBadgeViewAt(4, "2", BadgeView.ShapeOval);
             });
-            
+
             bnve.NavigationItemReselected += Bnve_NavigationItemReselected;
         }
 
